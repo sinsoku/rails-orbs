@@ -103,7 +103,7 @@ workflows:
       - js-test:
           requires:
             - js-deps
-      - rails/assets:
+      - assets:
           requires:
             - rb-deps
             - js-deps
